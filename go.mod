@@ -1,5 +1,8 @@
-module github.com/justincampbell/host-redirector
+module github.com/justincampbell/oauth-redirector
 
 go 1.12
 
-require github.com/gin-gonic/gin v1.4.0
+require (
+	github.com/gin-gonic/gin v1.4.0
+	github.com/stretchr/testify v1.3.0
+)
